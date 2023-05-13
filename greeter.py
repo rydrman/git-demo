@@ -2,8 +2,8 @@
 
 __version__ = "0.2.0"
 
-def greet(name = "World"):
-    print(f"Hello, {name}!")
+def greet(greeting = "Hello", name = "World"):
+    print(f"{greeting}, {name}!")
 
 def greet_better():
     print("Hello, you are awesome!")
