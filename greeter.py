@@ -1,9 +1,9 @@
 """Greets the user with nice messages."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
-def greet():
-    print("Hello, World! ")
+def greet(name = "World"):
+    print(f"Hello, {name}!")
 
 def greet_better():
     print("Hello, you are awesome!")
